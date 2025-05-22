@@ -1,9 +1,13 @@
-import React from 'react';
+import styles from '../styles/SearchBar.module.css';
 
-export default function SearchBar({ mode, setMode, query, setQuery, handleSearch }) {
+export default function SearchBar({ mode, setMode, query, setQuery, handleSearch, handleReset }) {
   return (
-    <div>
-      <select value={mode} onChange={(e) => setMode(e.target.value)}>
+    <div className={styles.searchBar}>
+      <select
+        value={mode}
+        onChange={(e) => setMode(e.target.value)}
+        className={styles.select}
+      >
         <option value="item">Search by Item</option>
         <option value="villager">Search by Villager</option>
       </select>
@@ -13,9 +17,11 @@ export default function SearchBar({ mode, setMode, query, setQuery, handleSearch
         placeholder={`Enter a ${mode === 'item' ? 'gift item' : 'villager name'}`}
         value={query}
         onChange={(e) => setQuery(e.target.value)}
+        className={styles.input}
       />
-      
-      <button onClick={handleSearch}>Search</button>
+
+      <button onClick={handleSearch} className={styles.button}>Search</button>
+      <button onClick={handleReset} className={styles.button} disabled={!query}>Reset</button>
     </div>
   );
 }

@@ -1,0 +1,68 @@
+.results {
+    margin-top: 2rem;
+  }
+  
+  .villagerList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .villagerItem {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    background-color: #fff9f1;
+    border: 1px solid #e0cfc2;
+    border-radius: 999px;
+    padding: 0.6rem 1.5rem; 
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    font-size: 1rem;
+    white-space: nowrap;
+    min-width: 130px;
+    justify-content: center;
+
+  }
+
+  .itemHeader {
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+    color: #5c3a5b;
+  }
+  
+  .itemName {
+    font-weight: bold;
+    color: #b313a5;
+  }
+  
+  
+  .villagerHeader {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .avatarLarge {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #e0cfc2;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  
+  .avatar {
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  
+  

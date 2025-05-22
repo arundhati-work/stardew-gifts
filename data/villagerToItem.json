@@ -1,13 +1,112 @@
 {
-    "Abigail": {
-      "loves": ["Pumpkin Pie", "Amethyst"],
-      "likes": ["Quartz"],
-      "hates": ["Clay"]
-    },
-    "Sebastian": {
-      "loves": ["Quartz"],
-      "likes": ["Obsidian"],
-      "hates": ["Pumpkin Pie"]
-    }
+  "Abigail": {
+    "loves": [
+      "Amethyst",
+      "Pumpkin",
+      "Spicy Eel"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Emily": {
+    "loves": [
+      "Amethyst",
+      "Cloth",
+      "Emerald"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Clint": {
+    "loves": [
+      "Amethyst"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Jas": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Amethyst",
+      "Pumpkin",
+      "Spicy Eel"
+    ]
+  },
+  "Vincent": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Amethyst",
+      "Pumpkin",
+      "Spicy Eel"
+    ]
+  },
+  "Krobus": {
+    "loves": [
+      "Pumpkin"
+    ],
+    "likes": [
+      "Spicy Eel"
+    ],
+    "hates": []
+  },
+  "Willy": {
+    "loves": [
+      "Pumpkin"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Caroline": {
+    "loves": [],
+    "likes": [
+      "Pumpkin"
+    ],
+    "hates": []
+  },
+  "Demetrius": {
+    "loves": [],
+    "likes": [
+      "Pumpkin"
+    ],
+    "hates": []
+  },
+  "Sam": {
+    "loves": [
+      "Spicy Eel"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Shane": {
+    "loves": [],
+    "likes": [
+      "Spicy Eel"
+    ],
+    "hates": []
+  },
+  "Penny": {
+    "loves": [
+      "Emerald"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Sandy": {
+    "loves": [
+      "Emerald"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Haley": {
+    "loves": [
+      "Coconut",
+      "Sunflower",
+      "Fruit Salad"
+    ],
+    "likes": [],
+    "hates": []
   }
-  
+}

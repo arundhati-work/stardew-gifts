@@ -1,0 +1,66 @@
+.wrapper {
+    width: 100%;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    width: 100%;
+    padding: 2rem 0;
+    box-sizing: border-box;
+  }
+  
+  /* Responsive column control if needed (optional) */
+  @media (min-width: 1600px) {
+    .grid {
+      grid-template-columns: repeat(6, 1fr);
+    }
+  }
+  
+  .card {
+    background-color: #fff9f1;
+    border: 1px solid #e0cfc2;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+  }
+  
+  .card h3 {
+    margin-bottom: 0.5rem;
+    color: #5c443a;
+    font-size: 1.2rem;
+  }
+  
+  .avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+    border: 2px solid #d6bfa4;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .giftRow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    white-space: nowrap;
+    padding: 0.25rem 0.5rem;
+    border-radius: 8px;
+  }
+  
+  .giftRow:hover {
+    background-color: #fff1dc;
+    cursor: default;
+  }
+  

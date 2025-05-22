@@ -3,11 +3,20 @@ import itemData from '../data/itemToVillager.json';
 import villagerData from '../data/villagerToItem.json';
 import SearchBar from '../components/SearchBar';
 import Results from '../components/Results';
+import styles from '../styles/Home.module.css';
+import VillagerGrid from '../components/VillagerGrid';
+
 
 export default function Home() {
   const [mode, setMode] = useState('item'); // 'item' or 'villager'
   const [query, setQuery] = useState('');
   const [result, setResult] = useState(null);
+
+  const handleReset = () => {
+    setQuery('');
+    setResult(null); // Show the grid again
+  };
+  
 
   const handleSearch = () => {
     const formattedQuery = query.trim().toLowerCase();
@@ -22,16 +31,25 @@ export default function Home() {
   };
 
   return (
-    <div style={{ padding: '2rem' }}>
-      <h1>🎁 Stardew Valley Gift Matcher</h1>
+    <main className={styles.main}>
+      <h1 className={styles.title}>🎁 Stardew Valley Gift Matcher</h1>
+      <div className={styles.searchContainer}>
       <SearchBar
         mode={mode}
         setMode={setMode}
         query={query}
         setQuery={setQuery}
         handleSearch={handleSearch}
+        handleReset={handleReset}
       />
-      <Results result={result} />
-    </div>
+
+      </div>
+      <div className={styles.results}>
+  {result ? <Results result={result} query={query} mode={mode} />
+ : <VillagerGrid />}
+</div>
+
+    </main>
+
   );
 }

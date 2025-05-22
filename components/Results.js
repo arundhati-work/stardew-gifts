@@ -1,16 +1,51 @@
 import React from 'react';
+import styles from '../styles/Results.module.css';
+import itemIcons from '../data/itemIcons.json';
 
-export default function Results({ result }) {
+export default function Results({ result, query, mode }) {
   if (!result) return null;
 
+  const formattedQuery =
+    query.charAt(0).toUpperCase() + query.slice(1).toLowerCase();
+
   return (
-    <div>
-      {Object.entries(result).map(([preference, names]) => (
+    <div className={styles.results}>
+      {mode === 'villager' ? (
+        <div className={styles.villagerHeader}>
+          <img
+            src={`/villagers/${formattedQuery.toLowerCase()}.png`}
+            alt={formattedQuery}
+            className={styles.avatarLarge}
+            onError={(e) => (e.target.style.display = 'none')}
+          />
+          <h2>{formattedQuery}</h2>
+        </div>
+      ) : (
+        <h2 className={styles.itemHeader}>
+          {itemIcons[formattedQuery] || '🎁'}{' '}
+          <span className={styles.itemName}>{formattedQuery}</span>
+        </h2>
+      )}
+
+      {Object.entries(result).map(([preference, items]) => (
         <div key={preference}>
           <h3>{preference.toUpperCase()}</h3>
-          <ul>
-            {names.map((n) => (
-              <li key={n}>{n}</li>
+          <ul className={styles.villagerList}>
+            {items.map((item) => (
+              <li key={item} className={styles.villagerItem}>
+                {mode === 'item' && (
+                  <img
+                    src={`/villagers/${item.toLowerCase()}.png`}
+                    alt={item}
+                    className={styles.avatar}
+                    onError={(e) => (e.target.style.display = 'none')}
+                  />
+                )}
+                <span>
+                  {mode === 'villager' && (itemIcons[item] || '🎁')}{' '}
+                  {item}
+                </span>
+              </li>
             ))}
           </ul>
         </div>

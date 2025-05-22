@@ -1,13 +1,150 @@
 {
-    "Pumpkin Pie": {
-      "loves": ["Abigail", "Jodi"],
-      "likes": ["Haley", "Leah"],
-      "hates": ["Sebastian"]
-    },
-    "Quartz": {
-      "loves": ["Sebastian"],
-      "likes": ["Linus"],
-      "hates": ["Emily"]
-    }
+  "Amethyst": {
+    "loves": [
+      "Abigail",
+      "Emily",
+      "Clint"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Pumpkin": {
+    "loves": [
+      "Abigail"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Spicy Eel": {
+    "loves": [
+      "Abigail"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Cloth": {
+    "loves": [
+      "Emily"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Emerald": {
+    "loves": [
+      "Emily",
+      "Penny"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Coconut": {
+    "loves": [
+      "Haley"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Sunflower": {
+    "loves": [
+      "Haley"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Fruit Salad": {
+    "loves": [
+      "Haley"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Goat Cheese": {
+    "loves": [
+      "Leah"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Diamond": {
+    "loves": [
+      "Maru",
+      "Penny",
+      "Emily",
+      "Jodi",
+      "Marnie",
+      "Willy"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Quartz": {
+    "loves": [
+      "Sebastian"
+    ],
+    "likes": [
+      "Linus"
+    ],
+    "hates": [
+      "Emily"
+    ]
+  },
+  "Pumpkin Pie": {
+    "loves": [
+      "Abigail",
+      "Jodi"
+    ],
+    "likes": [
+      "Haley",
+      "Leah"
+    ],
+    "hates": [
+      "Sebastian"
+    ]
+  },
+  "Chocolate Cake": {
+    "loves": [
+      "Jas",
+      "Jodi"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Beer": {
+    "loves": [
+      "Pam",
+      "Shane"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Coffee": {
+    "loves": [
+      "Harvey"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Pickles": {
+    "loves": [
+      "Harvey"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Void Egg": {
+    "loves": [
+      "Krobus",
+      "Sebastian"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Fried Mushroom": {
+    "loves": [
+      "George",
+      "Gus"
+    ],
+    "likes": [],
+    "hates": []
   }
-  
+}
