@@ -1,0 +1,13 @@
+{
+    "Pumpkin Pie": {
+      "loves": ["Abigail", "Jodi"],
+      "likes": ["Haley", "Leah"],
+      "hates": ["Sebastian"]
+    },
+    "Quartz": {
+      "loves": ["Sebastian"],
+      "likes": ["Linus"],
+      "hates": ["Emily"]
+    }
+  }
+  
