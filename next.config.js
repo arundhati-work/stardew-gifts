@@ -1,6 +1,6 @@
 const isGithubPages = process.env.DEPLOY_TARGET === 'GH_PAGES';
 
-const nextConfig = {
+module.exports = {
   output: 'export',
   images: {
     unoptimized: true,
@@ -8,5 +8,3 @@ const nextConfig = {
   basePath: isGithubPages ? '/stardew-gifts' : '',
   assetPrefix: isGithubPages ? '/stardew-gifts/' : '',
 };
-
-module.exports = nextConfig;
