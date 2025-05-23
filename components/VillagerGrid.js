@@ -1,16 +1,22 @@
 import { useRouter } from 'next/router';
 import styles from '../styles/VillagerGrid.module.css';
-import villagerData from '../data/villagerToItem.json';
 import itemIcons from '../data/itemIcons.json';
 
-export default function VillagerGrid() {
+export default function VillagerGrid({ villagerData }) {
   const router = useRouter();
   const basePath = router.basePath || '';
+
+  // Fallback to importing data if not provided as props (for backward compatibility)
+  let dataToUse = villagerData;
+  if (!villagerData) {
+    const fallbackData = require('../data/villagerToItem.json');
+    dataToUse = fallbackData;
+  }
 
   return (
     <div className={styles.wrapper}>
       <div className={styles.grid}>
-        {Object.entries(villagerData).map(([villager, preferences]) => (
+        {Object.entries(dataToUse).map(([villager, preferences]) => (
           <div key={villager} className={styles.card}>
             <img
               src={`${basePath}/villagers/${villager.toLowerCase()}.png`}

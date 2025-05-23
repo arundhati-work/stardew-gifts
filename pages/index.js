@@ -1,12 +1,10 @@
 import { useState } from 'react';
-import itemData from '../data/itemToVillager.json';
-import villagerData from '../data/villagerToItem.json';
 import SearchBar from '../components/SearchBar';
 import Results from '../components/Results';
 import styles from '../styles/Home.module.css';
 import VillagerGrid from '../components/VillagerGrid';
 
-export default function Home() {
+export default function Home({ itemData, villagerData }) {
   const [mode, setMode] = useState('item');
   const [query, setQuery] = useState('');
   const [result, setResult] = useState(null);
@@ -44,9 +42,23 @@ export default function Home() {
       <div className={styles.results}>
         {result ? 
           <Results result={result} query={query} mode={mode} />
-          : <VillagerGrid />
+          : <VillagerGrid villagerData={villagerData} />
         }
       </div>
     </main>
   );
+}
+
+// This runs at build time and pre-loads the data
+export async function getStaticProps() {
+  // Import the data at build time
+  const itemData = await import('../data/itemToVillager.json');
+  const villagerData = await import('../data/villagerToItem.json');
+
+  return {
+    props: {
+      itemData: itemData.default,
+      villagerData: villagerData.default,
+    },
+  };
 }
