@@ -9,7 +9,7 @@ export default function VillagerGrid() {
         {Object.entries(villagerData).map(([villager, preferences]) => (
           <div key={villager} className={styles.card}>
             <img
-              src={`/villagers/${villager.toLowerCase()}.png`}
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/villagers/${villager.toLowerCase()}.png`}
               alt={villager}
               className={styles.avatar}
               onError={(e) => (e.target.style.display = 'none')}

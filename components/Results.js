@@ -13,7 +13,7 @@ export default function Results({ result, query, mode }) {
       {mode === 'villager' ? (
         <div className={styles.villagerHeader}>
           <img
-            src={`/villagers/${formattedQuery.toLowerCase()}.png`}
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/villagers/${formattedQuery.toLowerCase()}.png`}
             alt={formattedQuery}
             className={styles.avatarLarge}
             onError={(e) => (e.target.style.display = 'none')}
@@ -35,7 +35,7 @@ export default function Results({ result, query, mode }) {
               <li key={item} className={styles.villagerItem}>
                 {mode === 'item' && (
                   <img
-                    src={`/villagers/${item.toLowerCase()}.png`}
+                    src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/villagers/${item.toLowerCase()}.png`}
                     alt={item}
                     className={styles.avatar}
                     onError={(e) => (e.target.style.display = 'none')}
