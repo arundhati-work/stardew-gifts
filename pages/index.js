@@ -1,18 +1,10 @@
 import { useState } from 'react';
-import dynamic from 'next/dynamic';
 import itemData from '../data/itemToVillager.json';
 import villagerData from '../data/villagerToItem.json';
 import SearchBar from '../components/SearchBar';
+import Results from '../components/Results';
 import styles from '../styles/Home.module.css';
-
-// Dynamically import components to avoid hydration issues
-const Results = dynamic(() => import('../components/Results'), {
-  ssr: false
-});
-
-const VillagerGrid = dynamic(() => import('../components/VillagerGrid'), {
-  ssr: false
-});
+import VillagerGrid from '../components/VillagerGrid';
 
 export default function Home() {
   const [mode, setMode] = useState('item'); // 'item' or 'villager'
@@ -23,7 +15,7 @@ export default function Home() {
     setQuery('');
     setResult(null); // Show the grid again
   };
-
+  
   const handleSearch = () => {
     const formattedQuery = query.trim().toLowerCase();
 
