@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "deploy": "DEPLOY_TARGET=GH_PAGES npm run build && gh-pages -d out"
+    "deploy": "DEPLOY_TARGET=GH_PAGES npm run build && cp .nojekyll out/ && gh-pages -d out"
   },
   "dependencies": {
     "next": "15.3.2",
