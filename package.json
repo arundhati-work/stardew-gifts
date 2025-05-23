@@ -6,8 +6,7 @@
 "scripts": {
   "dev": "next dev",
   "build": "next build",
-  "export": "next export",
-  "deploy": "DEPLOY_TARGET=GH_PAGES npm run build && npm run export && gh-pages -d out"
+  "deploy": "DEPLOY_TARGET=GH_PAGES npm run build && gh-pages -d out"
 },
   "dependencies": {
     "next": "15.3.2",
