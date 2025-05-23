@@ -33,6 +33,7 @@ export default function Home() {
       <h1 className={styles.title}>🎁 Stardew Valley Gift Matcher</h1>
       <div className={styles.searchContainer}>
         <SearchBar
+          key="searchbar"
           mode={mode}
           setMode={setMode}
           query={query}
@@ -42,8 +43,10 @@ export default function Home() {
         />
       </div>
       <div className={styles.results}>
-        {result ? <Results result={result} query={query} mode={mode} />
-         : <VillagerGrid />}
+        {result ? 
+          <Results key="results" result={result} query={query} mode={mode} />
+          : <VillagerGrid key="grid" />
+        }
       </div>
     </main>
   );
