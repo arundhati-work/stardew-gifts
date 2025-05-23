@@ -1,8 +1,12 @@
 import React from 'react';
+import { useRouter } from 'next/router';
 import styles from '../styles/Results.module.css';
 import itemIcons from '../data/itemIcons.json';
 
 export default function Results({ result, query, mode }) {
+  const router = useRouter();
+  const basePath = router.basePath || '';
+  
   if (!result) return null;
 
   const formattedQuery =
@@ -13,7 +17,7 @@ export default function Results({ result, query, mode }) {
       {mode === 'villager' ? (
         <div className={styles.villagerHeader}>
           <img
-            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/villagers/${formattedQuery.toLowerCase()}.png`}
+            src={`${basePath}/villagers/${formattedQuery.toLowerCase()}.png`}
             alt={formattedQuery}
             className={styles.avatarLarge}
             onError={(e) => (e.target.style.display = 'none')}
@@ -35,7 +39,7 @@ export default function Results({ result, query, mode }) {
               <li key={item} className={styles.villagerItem}>
                 {mode === 'item' && (
                   <img
-                    src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/villagers/${item.toLowerCase()}.png`}
+                    src={`${basePath}/villagers/${item.toLowerCase()}.png`}
                     alt={item}
                     className={styles.avatar}
                     onError={(e) => (e.target.style.display = 'none')}

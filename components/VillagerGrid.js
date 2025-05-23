@@ -1,15 +1,19 @@
+import { useRouter } from 'next/router';
 import styles from '../styles/VillagerGrid.module.css';
 import villagerData from '../data/villagerToItem.json';
 import itemIcons from '../data/itemIcons.json';
 
 export default function VillagerGrid() {
+  const router = useRouter();
+  const basePath = router.basePath || '';
+
   return (
     <div className={styles.wrapper}>
       <div className={styles.grid}>
         {Object.entries(villagerData).map(([villager, preferences]) => (
           <div key={villager} className={styles.card}>
             <img
-              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/villagers/${villager.toLowerCase()}.png`}
+              src={`${basePath}/villagers/${villager.toLowerCase()}.png`}
               alt={villager}
               className={styles.avatar}
               onError={(e) => (e.target.style.display = 'none')}
