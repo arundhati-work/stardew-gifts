@@ -2,11 +2,16 @@ import { useRouter } from 'next/router';
 import styles from '../styles/VillagerGrid.module.css';
 import itemIcons from '../data/itemIcons.json';
 
+function getItemIcon(item) {
+  const normalized = item.trim().toLowerCase();
+  return itemIcons[normalized] || '🎁';
+}
+
 export default function VillagerGrid({ villagerData }) {
   const router = useRouter();
   const basePath = router.basePath || '';
 
-  // Fallback to importing data if not provided as props (for backward compatibility)
+  // Fallback if prop not passed
   let dataToUse = villagerData;
   if (!villagerData) {
     const fallbackData = require('../data/villagerToItem.json');
@@ -29,7 +34,7 @@ export default function VillagerGrid({ villagerData }) {
               {preferences.loves.map((gift) => (
                 <li key={gift}>
                   <span className={styles.giftRow}>
-                    {itemIcons[gift] || '🎁'} {gift}
+                    {getItemIcon(gift)} {gift}
                   </span>
                 </li>
               ))}

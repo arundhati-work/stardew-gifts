@@ -3,10 +3,15 @@ import { useRouter } from 'next/router';
 import styles from '../styles/Results.module.css';
 import itemIcons from '../data/itemIcons.json';
 
+function getItemIcon(item) {
+  const normalized = item.trim().toLowerCase();
+  return itemIcons[normalized] || '🎁';
+}
+
 export default function Results({ result, query, mode }) {
   const router = useRouter();
   const basePath = router.basePath || '';
-  
+
   if (!result) return null;
 
   const formattedQuery =
@@ -26,7 +31,7 @@ export default function Results({ result, query, mode }) {
         </div>
       ) : (
         <h2 className={styles.itemHeader}>
-          {itemIcons[formattedQuery] || '🎁'}{' '}
+          {getItemIcon(formattedQuery)}{' '}
           <span className={styles.itemName}>{formattedQuery}</span>
         </h2>
       )}
@@ -46,8 +51,7 @@ export default function Results({ result, query, mode }) {
                   />
                 )}
                 <span>
-                  {mode === 'villager' && (itemIcons[item] || '🎁')}{' '}
-                  {item}
+                  {mode === 'villager' && getItemIcon(item)} {item}
                 </span>
               </li>
             ))}
