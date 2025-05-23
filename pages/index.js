@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import itemData from '../data/itemToVillager.json';
 import villagerData from '../data/villagerToItem.json';
 import SearchBar from '../components/SearchBar';
@@ -7,18 +7,13 @@ import styles from '../styles/Home.module.css';
 import VillagerGrid from '../components/VillagerGrid';
 
 export default function Home() {
-  const [mode, setMode] = useState('item'); // 'item' or 'villager'
+  const [mode, setMode] = useState('item');
   const [query, setQuery] = useState('');
   const [result, setResult] = useState(null);
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
 
   const handleReset = () => {
     setQuery('');
-    setResult(null); // Show the grid again
+    setResult(null);
   };
   
   const handleSearch = () => {
@@ -34,12 +29,11 @@ export default function Home() {
   };
 
   return (
-    <main className={styles.main} suppressHydrationWarning={true}>
-      <h1 className={styles.title}>🎁 Stardew Valley Gift Matcher</h1>
-      <div className={styles.searchContainer}>
-        {mounted && (
+    <div suppressHydrationWarning>
+      <main className={styles.main}>
+        <h1 className={styles.title}>🎁 Stardew Valley Gift Matcher</h1>
+        <div className={styles.searchContainer}>
           <SearchBar
-            key="searchbar"
             mode={mode}
             setMode={setMode}
             query={query}
@@ -47,15 +41,14 @@ export default function Home() {
             handleSearch={handleSearch}
             handleReset={handleReset}
           />
-        )}
-      </div>
-      <div className={styles.results} suppressHydrationWarning={true}>
-        {mounted && (
-          result ? 
-            <Results key="results" result={result} query={query} mode={mode} />
-            : <VillagerGrid key="grid" />
-        )}
-      </div>
-    </main>
+        </div>
+        <div className={styles.results}>
+          {result ? 
+            <Results result={result} query={query} mode={mode} />
+            : <VillagerGrid />
+          }
+        </div>
+      </main>
+    </div>
   );
 }
