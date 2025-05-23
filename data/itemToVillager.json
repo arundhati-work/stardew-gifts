@@ -1,16 +1,1210 @@
 {
+  "Complete Breakfast": {
+    "loves": [
+      "Alex"
+    ],
+    "likes": [],
+    "hates": [
+      "Sebastian"
+    ]
+  },
+  "Jack Be Nimble": {
+    "loves": [
+      "Alex"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Jack Be Thick": {
+    "loves": [
+      "Alex"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Salmon Dinner": {
+    "loves": [
+      "Alex"
+    ],
+    "likes": [
+      "Willy"
+    ],
+    "hates": [
+      "Emily"
+    ]
+  },
+  "All eggs (except void egg)": {
+    "loves": [],
+    "likes": [
+      "Alex"
+    ],
+    "hates": []
+  },
+  "Dinosaur Egg": {
+    "loves": [],
+    "likes": [
+      "Alex",
+      "Demetrius"
+    ],
+    "hates": []
+  },
+  "Field Snack": {
+    "loves": [],
+    "likes": [
+      "Alex"
+    ],
+    "hates": []
+  },
+  "Parrot egg": {
+    "loves": [],
+    "likes": [
+      "Alex"
+    ],
+    "hates": []
+  },
+  "All books except Jack Be Nimble & Jack Be Thick": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Alex"
+    ]
+  },
+  "Salmonberry": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Alex",
+      "Elliott",
+      "Harvey",
+      "Sam",
+      "Sebastian",
+      "Emily",
+      "Maru",
+      "Penny",
+      "Caroline",
+      "Clint",
+      "Dwarf",
+      "Evelyn",
+      "George",
+      "Gus",
+      "Krobus",
+      "Leo",
+      "Lewis",
+      "Marnie",
+      "Pierre",
+      "Willy",
+      "Wizard"
+    ]
+  },
+  "Wild Horseradish": {
+    "loves": [
+      "Krobus"
+    ],
+    "likes": [
+      "Harvey",
+      "Leah",
+      "Caroline",
+      "Linus"
+    ],
+    "hates": [
+      "Alex",
+      "Elliott",
+      "Sam",
+      "Sebastian",
+      "Shane",
+      "Abigail",
+      "Haley",
+      "Clint",
+      "Dwarf",
+      "Evelyn",
+      "George",
+      "Gus",
+      "Jas",
+      "Jodi",
+      "Leo",
+      "Lewis",
+      "Marnie",
+      "Pam",
+      "Pierre",
+      "Robin",
+      "Vincent",
+      "Willy",
+      "Wizard"
+    ]
+  },
+  "Holly": {
+    "loves": [],
+    "likes": [
+      "Harvey",
+      "Leah",
+      "Linus"
+    ],
+    "hates": [
+      "Alex",
+      "Elliott",
+      "Sam",
+      "Sebastian",
+      "Shane",
+      "Abigail",
+      "Emily",
+      "Haley",
+      "Maru",
+      "Penny",
+      "Caroline",
+      "Clint",
+      "Demetrius",
+      "Dwarf",
+      "Evelyn",
+      "Gus",
+      "Jas",
+      "Jodi",
+      "Kent",
+      "Krobus",
+      "Leo",
+      "Lewis",
+      "Marnie",
+      "Pam",
+      "Pierre",
+      "Robin",
+      "Sandy",
+      "Vincent",
+      "Willy",
+      "Wizard"
+    ]
+  },
+  "Quartz": {
+    "loves": [],
+    "likes": [
+      "Harvey",
+      "Sebastian",
+      "Abigail",
+      "Emily",
+      "Maru",
+      "Dwarf",
+      "Krobus",
+      "Leo",
+      "Marnie",
+      "Robin",
+      "Sandy",
+      "Willy",
+      "Wizard"
+    ],
+    "hates": [
+      "Alex",
+      "Elliott",
+      "Sam",
+      "Shane",
+      "Haley",
+      "Penny",
+      "Caroline",
+      "Clint",
+      "Demetrius",
+      "Evelyn",
+      "Gus",
+      "Jas",
+      "Jodi",
+      "Kent",
+      "Lewis",
+      "Pam",
+      "Vincent"
+    ]
+  },
+  "Crab Cakes": {
+    "loves": [
+      "Elliott"
+    ],
+    "likes": [
+      "Willy"
+    ],
+    "hates": []
+  },
+  "Duck Feather": {
+    "loves": [
+      "Elliott",
+      "Leo"
+    ],
+    "likes": [
+      "Harvey"
+    ],
+    "hates": [
+      "Penny"
+    ]
+  },
+  "Lobster": {
+    "loves": [
+      "Elliott"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Pomegranate": {
+    "loves": [
+      "Elliott"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Squid Ink": {
+    "loves": [
+      "Elliott"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Tom Kha Soup": {
+    "loves": [
+      "Elliott",
+      "Penny"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "All books": {
+    "loves": [],
+    "likes": [
+      "Elliott"
+    ],
+    "hates": []
+  },
+  "All fruit except Salmonberry": {
+    "loves": [],
+    "likes": [
+      "Elliott"
+    ],
+    "hates": []
+  },
+  "Octopus": {
+    "loves": [
+      "Willy"
+    ],
+    "likes": [
+      "Elliott"
+    ],
+    "hates": [
+      "Pam"
+    ]
+  },
+  "Squid": {
+    "loves": [],
+    "likes": [
+      "Elliott"
+    ],
+    "hates": [
+      "Pam"
+    ]
+  },
+  "All milk": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Elliott"
+    ]
+  },
+  "All mushrooms": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Elliott"
+    ]
+  },
+  "Daffodil": {
+    "loves": [
+      "Sandy"
+    ],
+    "likes": [
+      "Harvey",
+      "Emily",
+      "Haley",
+      "Leah",
+      "Caroline",
+      "Evelyn",
+      "George",
+      "Gus",
+      "Jas",
+      "Kent",
+      "Linus",
+      "Pam",
+      "Pierre",
+      "Vincent"
+    ],
+    "hates": [
+      "Elliott",
+      "Sam",
+      "Sebastian",
+      "Shane",
+      "Dwarf",
+      "Jodi",
+      "Krobus",
+      "Leo",
+      "Willy",
+      "Wizard"
+    ]
+  },
+  "Dandelion": {
+    "loves": [],
+    "likes": [
+      "Harvey",
+      "Leah",
+      "Penny",
+      "Linus",
+      "Pierre"
+    ],
+    "hates": [
+      "Elliott",
+      "Sam",
+      "Sebastian",
+      "Shane",
+      "Haley",
+      "Caroline",
+      "Dwarf",
+      "Jas",
+      "Jodi",
+      "Krobus",
+      "Leo",
+      "Vincent",
+      "Willy",
+      "Wizard"
+    ]
+  },
+  "Ginger": {
+    "loves": [],
+    "likes": [
+      "Harvey",
+      "Leah",
+      "Linus"
+    ],
+    "hates": [
+      "Elliott",
+      "Sam",
+      "Sebastian",
+      "Shane",
+      "Haley",
+      "Caroline",
+      "Dwarf",
+      "Jas",
+      "Jodi",
+      "Krobus",
+      "Leo",
+      "Pierre",
+      "Vincent",
+      "Willy",
+      "Wizard"
+    ]
+  },
+  "Hazelnut": {
+    "loves": [],
+    "likes": [
+      "Harvey",
+      "Leah",
+      "Linus"
+    ],
+    "hates": [
+      "Elliott",
+      "Sam",
+      "Sebastian",
+      "Shane",
+      "Haley",
+      "Caroline",
+      "Dwarf",
+      "Jas",
+      "Jodi",
+      "Krobus",
+      "Leo",
+      "Pierre",
+      "Vincent",
+      "Willy",
+      "Wizard"
+    ]
+  },
+  "Leek": {
+    "loves": [
+      "George"
+    ],
+    "likes": [
+      "Harvey",
+      "Leah",
+      "Penny",
+      "Linus"
+    ],
+    "hates": [
+      "Elliott",
+      "Sam",
+      "Sebastian",
+      "Shane",
+      "Haley",
+      "Caroline",
+      "Dwarf",
+      "Jas",
+      "Jodi",
+      "Krobus",
+      "Leo",
+      "Pierre",
+      "Vincent",
+      "Willy",
+      "Wizard"
+    ]
+  },
+  "Pizza": {
+    "loves": [
+      "Sam",
+      "Shane"
+    ],
+    "likes": [],
+    "hates": [
+      "Elliott",
+      "Harvey",
+      "Leah"
+    ]
+  },
+  "Snow Yam": {
+    "loves": [],
+    "likes": [
+      "Harvey",
+      "Leah",
+      "Linus"
+    ],
+    "hates": [
+      "Elliott",
+      "Sam",
+      "Sebastian",
+      "Shane",
+      "Haley",
+      "Maru",
+      "Caroline",
+      "Dwarf",
+      "Jas",
+      "Jodi",
+      "Kent",
+      "Krobus",
+      "Leo",
+      "Pierre",
+      "Vincent",
+      "Willy",
+      "Wizard"
+    ]
+  },
+  "Winter root": {
+    "loves": [],
+    "likes": [
+      "Harvey"
+    ],
+    "hates": [
+      "Elliott"
+    ]
+  },
+  "Amaranth": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Elliott",
+      "Caroline"
+    ]
+  },
+  "Sea cucumber": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Elliott"
+    ]
+  },
+  "Super cucumber": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Elliott"
+    ]
+  },
+  "Coffee": {
+    "loves": [
+      "Harvey"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Pickles": {
+    "loves": [
+      "Harvey"
+    ],
+    "likes": [],
+    "hates": [
+      "Sam",
+      "Shane",
+      "Maru",
+      "Leo"
+    ]
+  },
+  "Super Meal": {
+    "loves": [
+      "Harvey"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Truffle Oil": {
+    "loves": [
+      "Harvey"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Wine": {
+    "loves": [
+      "Harvey",
+      "Leah"
+    ],
+    "likes": [],
+    "hates": [
+      "Penny",
+      "Leo"
+    ]
+  },
+  "All fruit except Salmonberry & Spice Berry": {
+    "loves": [],
+    "likes": [
+      "Harvey"
+    ],
+    "hates": []
+  },
+  "All Mushrooms except Red": {
+    "loves": [],
+    "likes": [
+      "Harvey"
+    ],
+    "hates": []
+  },
+  "Duck Egg": {
+    "loves": [],
+    "likes": [
+      "Harvey"
+    ],
+    "hates": []
+  },
+  "Goat Milk": {
+    "loves": [],
+    "likes": [
+      "Harvey",
+      "Sandy"
+    ],
+    "hates": []
+  },
+  "Spring Onion": {
+    "loves": [],
+    "likes": [
+      "Harvey",
+      "Leah",
+      "Linus"
+    ],
+    "hates": []
+  },
+  "Blueberry Tart": {
+    "loves": [
+      "Linus"
+    ],
+    "likes": [],
+    "hates": [
+      "Harvey"
+    ]
+  },
+  "Bread": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Harvey",
+      "Leah"
+    ]
+  },
+  "Cheese": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Harvey"
+    ]
+  },
+  "Chocolate Cake": {
+    "loves": [
+      "Abigail",
+      "Evelyn",
+      "Jodi"
+    ],
+    "likes": [],
+    "hates": [
+      "Harvey"
+    ]
+  },
+  "Cookie": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Harvey",
+      "Leah"
+    ]
+  },
+  "Cranberry Sauce": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Harvey"
+    ]
+  },
+  "Fried Mushroom": {
+    "loves": [
+      "George"
+    ],
+    "likes": [],
+    "hates": [
+      "Harvey"
+    ]
+  },
+  "Glazed Yams": {
+    "loves": [
+      "Lewis",
+      "Pam"
+    ],
+    "likes": [],
+    "hates": [
+      "Harvey"
+    ]
+  },
+  "Goat Cheese": {
+    "loves": [
+      "Leah",
+      "Robin"
+    ],
+    "likes": [],
+    "hates": [
+      "Harvey"
+    ]
+  },
+  "Hashbrowns": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Harvey",
+      "Leah"
+    ]
+  },
+  "Ice Cream": {
+    "loves": [
+      "Demetrius"
+    ],
+    "likes": [],
+    "hates": [
+      "Harvey",
+      "Emily",
+      "Leah"
+    ]
+  },
+  "Pancakes": {
+    "loves": [
+      "Jodi"
+    ],
+    "likes": [],
+    "hates": [
+      "Harvey",
+      "Leah"
+    ]
+  },
+  "Pink Cake": {
+    "loves": [
+      "Haley",
+      "Jas",
+      "Marnie",
+      "Vincent"
+    ],
+    "likes": [],
+    "hates": [
+      "Harvey",
+      "Leah"
+    ]
+  },
+  "Rhubarb Pie": {
+    "loves": [
+      "Maru",
+      "Jodi"
+    ],
+    "likes": [],
+    "hates": [
+      "Harvey"
+    ]
+  },
+  "Rice Pudding": {
+    "loves": [
+      "Demetrius"
+    ],
+    "likes": [],
+    "hates": [
+      "Harvey",
+      "Emily",
+      "Leah"
+    ]
+  },
+  "Coral": {
+    "loves": [],
+    "likes": [
+      "Evelyn"
+    ],
+    "hates": [
+      "Harvey"
+    ]
+  },
+  "Nautilus Shell": {
+    "loves": [],
+    "likes": [
+      "Evelyn",
+      "Leo"
+    ],
+    "hates": [
+      "Harvey"
+    ]
+  },
+  "Rainbow Shell": {
+    "loves": [],
+    "likes": [
+      "Leo"
+    ],
+    "hates": [
+      "Harvey"
+    ]
+  },
+  "Spice Berry": {
+    "loves": [],
+    "likes": [
+      "Leo"
+    ],
+    "hates": [
+      "Harvey",
+      "Evelyn",
+      "Jodi"
+    ]
+  },
+  "Cactus Fruit": {
+    "loves": [
+      "Sam",
+      "Linus",
+      "Pam"
+    ],
+    "likes": [
+      "Lewis"
+    ],
+    "hates": []
+  },
+  "Maple Bar": {
+    "loves": [
+      "Sam"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Tigerseye": {
+    "loves": [
+      "Sam"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "All eggs except void egg": {
+    "loves": [],
+    "likes": [
+      "Sam"
+    ],
+    "hates": []
+  },
+  "Joja Cola": {
+    "loves": [],
+    "likes": [
+      "Sam"
+    ],
+    "hates": []
+  },
+  "All Mushrooms (except Red)": {
+    "loves": [],
+    "likes": [
+      "Leah",
+      "Linus"
+    ],
+    "hates": [
+      "Sam",
+      "Sebastian",
+      "Shane",
+      "Haley",
+      "Caroline",
+      "Dwarf",
+      "Jas",
+      "Jodi",
+      "Krobus",
+      "Pierre",
+      "Vincent",
+      "Willy"
+    ]
+  },
+  "All Vegetables (except Hops, Tea Leaves, & Wheat)": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Sam",
+      "Haley",
+      "Jas",
+      "Vincent"
+    ]
+  },
+  "Seaweed": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Sam",
+      "Shane",
+      "Leah",
+      "Marnie"
+    ]
+  },
+  "Winter Root": {
+    "loves": [],
+    "likes": [
+      "Leah",
+      "Linus"
+    ],
+    "hates": [
+      "Sam",
+      "Sebastian",
+      "Shane",
+      "Haley",
+      "Caroline",
+      "Dwarf",
+      "Jas",
+      "Jodi",
+      "Krobus",
+      "Leo",
+      "Pierre",
+      "Vincent",
+      "Willy",
+      "Wizard"
+    ]
+  },
+  "Bone Fragment": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Sam"
+    ]
+  },
+  "Cinder Shard": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Sam"
+    ]
+  },
+  "Coal": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Sam"
+    ]
+  },
+  "Copper Bar": {
+    "loves": [],
+    "likes": [
+      "Maru",
+      "Clint"
+    ],
+    "hates": [
+      "Sam"
+    ]
+  },
+  "Duck Mayonnaise": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Sam",
+      "Caroline"
+    ]
+  },
+  "Gold Bar": {
+    "loves": [
+      "Maru",
+      "Clint",
+      "Willy"
+    ],
+    "likes": [
+      "Krobus"
+    ],
+    "hates": [
+      "Sam"
+    ]
+  },
+  "Gold Ore": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Sam"
+    ]
+  },
+  "Iridium Bar": {
+    "loves": [
+      "Maru",
+      "Clint",
+      "Krobus",
+      "Willy"
+    ],
+    "likes": [
+      "Wizard"
+    ],
+    "hates": [
+      "Sam"
+    ]
+  },
+  "Iridium Ore": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Sam"
+    ]
+  },
+  "Iron Bar": {
+    "loves": [],
+    "likes": [
+      "Maru",
+      "Clint"
+    ],
+    "hates": [
+      "Sam"
+    ]
+  },
+  "Mayonnaise": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Sam",
+      "Caroline"
+    ]
+  },
+  "Refined Quartz": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Sam"
+    ]
+  },
+  "Frog Egg": {
+    "loves": [
+      "Sebastian",
+      "Vincent"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Frozen Tear": {
+    "loves": [
+      "Sebastian"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Obsidian": {
+    "loves": [
+      "Sebastian"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Pumpkin Soup": {
+    "loves": [
+      "Sebastian"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Sashimi": {
+    "loves": [
+      "Sebastian"
+    ],
+    "likes": [],
+    "hates": [
+      "Emily",
+      "Evelyn",
+      "Kent"
+    ]
+  },
+  "Void Egg": {
+    "loves": [
+      "Sebastian",
+      "Krobus"
+    ],
+    "likes": [],
+    "hates": [
+      "Leah"
+    ]
+  },
+  "Combat Quarterly": {
+    "loves": [],
+    "likes": [
+      "Sebastian",
+      "Abigail"
+    ],
+    "hates": []
+  },
+  "Flounder": {
+    "loves": [],
+    "likes": [
+      "Sebastian"
+    ],
+    "hates": []
+  },
+  "Monster Compendium": {
+    "loves": [
+      "Abigail",
+      "Krobus"
+    ],
+    "likes": [
+      "Sebastian"
+    ],
+    "hates": []
+  },
+  "All Flowers (except Poppy)": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Sebastian",
+      "Clint",
+      "George"
+    ]
+  },
+  "All Artisan Goods (except Coffee, Green Tea, & Oil)": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Sebastian"
+    ]
+  },
+  "All Eggs (except Void Egg)": {
+    "loves": [],
+    "likes": [
+      "Shane",
+      "Leah",
+      "Demetrius",
+      "Jodi",
+      "Kent",
+      "Linus",
+      "Marnie",
+      "Pierre"
+    ],
+    "hates": [
+      "Sebastian"
+    ]
+  },
+  "Clay": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Sebastian",
+      "Abigail",
+      "Haley",
+      "Evelyn",
+      "Jas",
+      "Marnie",
+      "Vincent"
+    ]
+  },
+  "Farmer's Lunch": {
+    "loves": [
+      "Marnie"
+    ],
+    "likes": [],
+    "hates": [
+      "Sebastian"
+    ]
+  },
+  "Omelet": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Sebastian"
+    ]
+  },
+  "Pi\u00f1a Colada": {
+    "loves": [
+      "Pam"
+    ],
+    "likes": [],
+    "hates": [
+      "Sebastian",
+      "Penny",
+      "Jas",
+      "Kent",
+      "Leo",
+      "Vincent"
+    ]
+  },
+  "Beer": {
+    "loves": [
+      "Shane",
+      "Pam"
+    ],
+    "likes": [],
+    "hates": [
+      "Penny",
+      "Leo"
+    ]
+  },
+  "Hot Pepper": {
+    "loves": [
+      "Shane",
+      "Lewis"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Pepper Poppers": {
+    "loves": [
+      "Shane",
+      "Maru"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "All Fruit (except Hot Pepper)": {
+    "loves": [],
+    "likes": [
+      "Shane"
+    ],
+    "hates": []
+  },
   "Amethyst": {
     "loves": [
       "Abigail",
       "Emily",
-      "Clint"
+      "Clint",
+      "Dwarf"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Banana Pudding": {
+    "loves": [
+      "Abigail"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Blackberry Cobbler": {
+    "loves": [
+      "Abigail"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Pufferfish": {
+    "loves": [
+      "Abigail"
     ],
     "likes": [],
     "hates": []
   },
   "Pumpkin": {
     "loves": [
-      "Abigail"
+      "Abigail",
+      "Krobus",
+      "Willy"
     ],
     "likes": [],
     "hates": []
@@ -18,6 +1212,73 @@
   "Spicy Eel": {
     "loves": [
       "Abigail"
+    ],
+    "likes": [],
+    "hates": [
+      "Emily",
+      "Evelyn"
+    ]
+  },
+  "Ancient Sword": {
+    "loves": [],
+    "likes": [
+      "Abigail"
+    ],
+    "hates": []
+  },
+  "Basilisk Paw": {
+    "loves": [],
+    "likes": [
+      "Abigail"
+    ],
+    "hates": []
+  },
+  "Bone Flute": {
+    "loves": [],
+    "likes": [
+      "Abigail"
+    ],
+    "hates": []
+  },
+  "All Eggs": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Abigail",
+      "Haley",
+      "Dwarf",
+      "Jas",
+      "Pam",
+      "Vincent",
+      "Wizard"
+    ]
+  },
+  "All Fruit (except Fruit Tree Fruit)": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Abigail"
+    ]
+  },
+  "All Vegetables (except Hops, Pumpkin, Tea Leaves, & Wheat)": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Abigail"
+    ]
+  },
+  "Sugar": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Abigail"
+    ]
+  },
+  "Aquamarine": {
+    "loves": [
+      "Emily",
+      "Clint",
+      "Dwarf"
     ],
     "likes": [],
     "hates": []
@@ -32,12 +1293,113 @@
   "Emerald": {
     "loves": [
       "Emily",
-      "Penny"
+      "Penny",
+      "Clint",
+      "Dwarf"
     ],
     "likes": [],
     "hates": []
   },
+  "Jade": {
+    "loves": [
+      "Emily",
+      "Clint",
+      "Dwarf"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Parrot Egg": {
+    "loves": [
+      "Emily",
+      "Leo"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Ruby": {
+    "loves": [
+      "Emily",
+      "Clint",
+      "Dwarf"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Survival Burger": {
+    "loves": [
+      "Emily"
+    ],
+    "likes": [],
+    "hates": [
+      "Leah"
+    ]
+  },
+  "Topaz": {
+    "loves": [
+      "Emily",
+      "Clint",
+      "Dwarf"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Wool": {
+    "loves": [
+      "Emily"
+    ],
+    "likes": [
+      "Sandy"
+    ],
+    "hates": [
+      "Penny"
+    ]
+  },
+  "Fried Eel": {
+    "loves": [
+      "Jodi"
+    ],
+    "likes": [
+      "Willy"
+    ],
+    "hates": [
+      "Emily",
+      "Evelyn"
+    ]
+  },
+  "Fish Taco": {
+    "loves": [
+      "Caroline",
+      "Gus"
+    ],
+    "likes": [
+      "Willy"
+    ],
+    "hates": [
+      "Emily"
+    ]
+  },
+  "Maki Roll": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Emily",
+      "Evelyn"
+    ]
+  },
   "Coconut": {
+    "loves": [
+      "Haley",
+      "Linus"
+    ],
+    "likes": [
+      "Jas",
+      "Lewis",
+      "Vincent"
+    ],
+    "hates": []
+  },
+  "Fruit Salad": {
     "loves": [
       "Haley"
     ],
@@ -51,16 +1413,173 @@
     "likes": [],
     "hates": []
   },
-  "Fruit Salad": {
-    "loves": [
+  "All Fruit (except Coconut)": {
+    "loves": [],
+    "likes": [],
+    "hates": [
       "Haley"
+    ]
+  },
+  "All Milk": {
+    "loves": [],
+    "likes": [
+      "Leah",
+      "Penny",
+      "Evelyn",
+      "Jas",
+      "Jodi",
+      "Linus",
+      "Marnie",
+      "Pam",
+      "Pierre",
+      "Robin",
+      "Vincent"
+    ],
+    "hates": [
+      "Haley",
+      "Kent",
+      "Lewis",
+      "Wizard"
+    ]
+  },
+  "Mystic Syrup": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Haley"
+    ]
+  },
+  "All Fish": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Haley",
+      "Pierre"
+    ]
+  },
+  "Prismatic Shard": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Haley"
+    ]
+  },
+  "Poppyseed Muffin": {
+    "loves": [
+      "Leah",
+      "Penny"
     ],
     "likes": [],
     "hates": []
   },
-  "Goat Cheese": {
+  "Salad": {
     "loves": [
       "Leah"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Stir Fry": {
+    "loves": [
+      "Leah"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Truffle": {
+    "loves": [
+      "Leah"
+    ],
+    "likes": [
+      "Gus"
+    ],
+    "hates": [
+      "Maru"
+    ]
+  },
+  "Vegetable Medley": {
+    "loves": [
+      "Leah",
+      "Jodi",
+      "Lewis"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "All Fruit": {
+    "loves": [],
+    "likes": [
+      "Leah",
+      "Kent",
+      "Sandy"
+    ],
+    "hates": []
+  },
+  "Driftwood": {
+    "loves": [],
+    "likes": [
+      "Leah"
+    ],
+    "hates": []
+  },
+  "All Foraged Minerals (except Earth Crystal)": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Leah"
+    ]
+  },
+  "All Gems (except Diamond & Prismatic Shard)": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Leah",
+      "Linus",
+      "Pierre"
+    ]
+  },
+  "Carp Surprise": {
+    "loves": [],
+    "likes": [
+      "Willy"
+    ],
+    "hates": [
+      "Leah"
+    ]
+  },
+  "Fried Egg": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Leah"
+    ]
+  },
+  "Tortilla": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Leah",
+      "Kent",
+      "Pierre"
+    ]
+  },
+  "Battery Pack": {
+    "loves": [
+      "Maru"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Cauliflower": {
+    "loves": [
+      "Maru"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Cheese Cauliflower": {
+    "loves": [
+      "Maru"
     ],
     "likes": [],
     "hates": []
@@ -69,82 +1588,1016 @@
     "loves": [
       "Maru",
       "Penny",
-      "Emily",
+      "Evelyn",
+      "Gus",
       "Jodi",
+      "Krobus",
       "Marnie",
       "Willy"
     ],
     "likes": [],
     "hates": []
   },
-  "Quartz": {
+  "Dwarf Gadget": {
     "loves": [
-      "Sebastian"
-    ],
-    "likes": [
-      "Linus"
-    ],
-    "hates": [
-      "Emily"
-    ]
-  },
-  "Pumpkin Pie": {
-    "loves": [
-      "Abigail",
-      "Jodi"
-    ],
-    "likes": [
-      "Haley",
-      "Leah"
-    ],
-    "hates": [
-      "Sebastian"
-    ]
-  },
-  "Chocolate Cake": {
-    "loves": [
-      "Jas",
-      "Jodi"
+      "Maru"
     ],
     "likes": [],
     "hates": []
   },
-  "Beer": {
+  "Miner's Treat": {
+    "loves": [
+      "Maru"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Radioactive Bar": {
+    "loves": [
+      "Maru"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Strawberry": {
+    "loves": [
+      "Maru",
+      "Demetrius"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "All Mushrooms (except Common & Red)": {
+    "loves": [],
+    "likes": [
+      "Maru"
+    ],
+    "hates": []
+  },
+  "Oak Resin": {
+    "loves": [],
+    "likes": [
+      "Maru"
+    ],
+    "hates": []
+  },
+  "Pine Tar": {
+    "loves": [],
+    "likes": [
+      "Maru"
+    ],
+    "hates": []
+  },
+  "Radioactive Ore": {
+    "loves": [],
+    "likes": [
+      "Maru"
+    ],
+    "hates": []
+  },
+  "Blackberry": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Maru"
+    ]
+  },
+  "Common Mushroom": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Maru"
+    ]
+  },
+  "Crystal Fruit": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Maru"
+    ]
+  },
+  "Maple Syrup": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Maru"
+    ]
+  },
+  "Honey": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Maru"
+    ]
+  },
+  "All Books": {
+    "loves": [
+      "Penny"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Melon": {
+    "loves": [
+      "Penny"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Poppy": {
+    "loves": [
+      "Penny"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Red Plate": {
+    "loves": [
+      "Penny"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Roots Platter": {
+    "loves": [
+      "Penny"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Sandfish": {
+    "loves": [
+      "Penny"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "All Artifacts": {
+    "loves": [],
+    "likes": [
+      "Penny",
+      "Dwarf"
+    ],
+    "hates": []
+  },
+  "Algae Soup": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Penny",
+      "Kent"
+    ]
+  },
+  "Pale Broth": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Penny"
+    ]
+  },
+  "Purple Mushroom": {
+    "loves": [
+      "Wizard"
+    ],
+    "likes": [
+      "Demetrius"
+    ],
+    "hates": [
+      "Penny"
+    ]
+  },
+  "Red Mushroom": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Penny"
+    ]
+  },
+  "Grape": {
+    "loves": [
+      "Vincent"
+    ],
+    "likes": [],
+    "hates": [
+      "Penny"
+    ]
+  },
+  "Hops": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Penny",
+      "Leo"
+    ]
+  },
+  "Mead": {
     "loves": [
       "Pam",
-      "Shane"
+      "Willy"
+    ],
+    "likes": [],
+    "hates": [
+      "Penny",
+      "Leo"
+    ]
+  },
+  "Pale Ale": {
+    "loves": [
+      "Pam"
+    ],
+    "likes": [],
+    "hates": [
+      "Penny",
+      "Leo"
+    ]
+  },
+  "Rabbit's Foot": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Penny"
+    ]
+  },
+  "Green Tea": {
+    "loves": [
+      "Caroline",
+      "Lewis"
     ],
     "likes": [],
     "hates": []
   },
-  "Coffee": {
+  "Summer Spangle": {
     "loves": [
-      "Harvey"
+      "Caroline"
     ],
     "likes": [],
     "hates": []
   },
-  "Pickles": {
+  "Tropical Curry": {
     "loves": [
-      "Harvey"
-    ],
-    "likes": [],
-    "hates": []
-  },
-  "Void Egg": {
-    "loves": [
-      "Krobus",
-      "Sebastian"
-    ],
-    "likes": [],
-    "hates": []
-  },
-  "Fried Mushroom": {
-    "loves": [
-      "George",
+      "Caroline",
       "Gus"
     ],
     "likes": [],
     "hates": []
+  },
+  "Tea Leaves": {
+    "loves": [],
+    "likes": [
+      "Caroline"
+    ],
+    "hates": []
+  },
+  "Artichoke Dip": {
+    "loves": [
+      "Clint"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Fiddlehead Risotto": {
+    "loves": [
+      "Clint",
+      "Kent"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Omni Geode": {
+    "loves": [
+      "Clint",
+      "Dwarf"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Mining Monthly": {
+    "loves": [],
+    "likes": [
+      "Clint"
+    ],
+    "hates": []
+  },
+  "Bean Hotpot": {
+    "loves": [
+      "Demetrius"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "All Fruit (except Strawberry)": {
+    "loves": [],
+    "likes": [
+      "Demetrius"
+    ],
+    "hates": []
+  },
+  "Lava Eel": {
+    "loves": [
+      "Dwarf"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Lemon Stone": {
+    "loves": [
+      "Dwarf"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Cave Carrot": {
+    "loves": [],
+    "likes": [
+      "Dwarf"
+    ],
+    "hates": []
+  },
+  "Beet": {
+    "loves": [
+      "Evelyn"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Fairy Rose": {
+    "loves": [
+      "Evelyn",
+      "Jas"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Raisins": {
+    "loves": [
+      "Evelyn"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Stuffing": {
+    "loves": [
+      "Evelyn"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Tulip": {
+    "loves": [
+      "Evelyn"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Broken Glasses": {
+    "loves": [],
+    "likes": [
+      "Evelyn"
+    ],
+    "hates": []
+  },
+  "Clam": {
+    "loves": [],
+    "likes": [
+      "Evelyn"
+    ],
+    "hates": []
+  },
+  "Cockle": {
+    "loves": [],
+    "likes": [
+      "Evelyn"
+    ],
+    "hates": []
+  },
+  "Mussel": {
+    "loves": [],
+    "likes": [
+      "Evelyn"
+    ],
+    "hates": []
+  },
+  "Oyster": {
+    "loves": [],
+    "likes": [
+      "Evelyn"
+    ],
+    "hates": []
+  },
+  "Sea Urchin": {
+    "loves": [],
+    "likes": [
+      "Evelyn",
+      "Leo"
+    ],
+    "hates": []
+  },
+  "All Fish (except Clam, Cockle, Mussel, & Oyster)": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Evelyn"
+    ]
+  },
+  "Garlic": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Evelyn",
+      "Jodi",
+      "Pierre"
+    ]
+  },
+  "Trout Soup": {
+    "loves": [],
+    "likes": [
+      "Willy"
+    ],
+    "hates": [
+      "Evelyn"
+    ]
+  },
+  "Escargot": {
+    "loves": [
+      "Gus"
+    ],
+    "likes": [
+      "Willy"
+    ],
+    "hates": []
+  },
+  "Orange": {
+    "loves": [
+      "Gus"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Coleslaw": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Gus"
+    ]
+  },
+  "Ancient Doll": {
+    "loves": [
+      "Jas"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Fairy Box": {
+    "loves": [
+      "Jas"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Plum Pudding": {
+    "loves": [
+      "Jas"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Strange Doll (green)": {
+    "loves": [
+      "Jas"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Strange Doll (yellow)": {
+    "loves": [
+      "Jas"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "All Fruit (except Coconut & Fruit Tree Fruit)": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Jas"
+    ]
+  },
+  "All Artisan Goods (except Honey, Jelly, & Oil)": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Jas",
+      "Vincent"
+    ]
+  },
+  "Triple Shot Espresso": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Jas",
+      "Leo",
+      "Vincent"
+    ]
+  },
+  "Crispy Bass": {
+    "loves": [
+      "Jodi"
+    ],
+    "likes": [
+      "Willy"
+    ],
+    "hates": []
+  },
+  "Eggplant Parmesan": {
+    "loves": [
+      "Jodi"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "All Fruit (except Spice Berry)": {
+    "loves": [],
+    "likes": [
+      "Jodi"
+    ],
+    "hates": []
+  },
+  "Roasted Hazelnuts": {
+    "loves": [
+      "Kent"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Dwarvish Safety Manual": {
+    "loves": [],
+    "likes": [
+      "Kent"
+    ],
+    "hates": []
+  },
+  "Monster Musk": {
+    "loves": [
+      "Krobus"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Void Mayonnaise": {
+    "loves": [
+      "Krobus"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Seafoam Pudding": {
+    "loves": [],
+    "likes": [
+      "Krobus",
+      "Willy",
+      "Willy"
+    ],
+    "hates": []
+  },
+  "Strange Bun": {
+    "loves": [],
+    "likes": [
+      "Krobus"
+    ],
+    "hates": []
+  },
+  "All Cooking (except Bread, Fried Egg, Seafoam Pudding & Strange Bun)": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Krobus"
+    ]
+  },
+  "Life Elixir": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Krobus",
+      "Leo",
+      "Willy"
+    ]
+  },
+  "Mango": {
+    "loves": [
+      "Leo"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Ostrich Egg": {
+    "loves": [
+      "Leo"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Poi": {
+    "loves": [
+      "Leo"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Dragon Tooth": {
+    "loves": [],
+    "likes": [
+      "Leo"
+    ],
+    "hates": []
+  },
+  "All Cooking (except Bread, Fried Egg, Mango Sticky Rice, Poi & Triple Shot Espresso)": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Leo"
+    ]
+  },
+  "All Mushrooms (except Morel & Red)": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Leo"
+    ]
+  },
+  "Morel": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Leo"
+    ]
+  },
+  "Oil": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Leo"
+    ]
+  },
+  "Unmilled Rice": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Leo"
+    ]
+  },
+  "Autumn's Bounty": {
+    "loves": [
+      "Lewis"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Blueberry": {
+    "loves": [],
+    "likes": [
+      "Lewis"
+    ],
+    "hates": []
+  },
+  "Dish O' The Sea": {
+    "loves": [
+      "Linus"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "The Alleyway Buffet": {
+    "loves": [
+      "Linus"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Yam": {
+    "loves": [
+      "Linus"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "All Fruit (except Cactus Fruit & Coconut)": {
+    "loves": [],
+    "likes": [
+      "Linus"
+    ],
+    "hates": []
+  },
+  "All Foraged Minerals": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Linus",
+      "Pierre"
+    ]
+  },
+  "Treasure Chest": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Linus"
+    ]
+  },
+  "Pumpkin Pie": {
+    "loves": [
+      "Marnie"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Stardew Valley Almanac": {
+    "loves": [],
+    "likes": [
+      "Marnie"
+    ],
+    "hates": []
+  },
+  "Parsnip": {
+    "loves": [
+      "Pam"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Parsnip Soup": {
+    "loves": [
+      "Pam"
+    ],
+    "likes": [],
+    "hates": [
+      "Pierre"
+    ]
+  },
+  "All Fruit (except Cactus Fruit)": {
+    "loves": [],
+    "likes": [
+      "Pam"
+    ],
+    "hates": []
+  },
+  "Fried Calamari": {
+    "loves": [
+      "Pierre"
+    ],
+    "likes": [
+      "Willy"
+    ],
+    "hates": []
+  },
+  "Price Catalogue": {
+    "loves": [
+      "Pierre"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Corn": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Pierre"
+    ]
+  },
+  "Peach": {
+    "loves": [
+      "Robin"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Spaghetti": {
+    "loves": [
+      "Robin"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Woody's Secret": {
+    "loves": [
+      "Robin"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "All Fruit (except Peach)": {
+    "loves": [],
+    "likes": [
+      "Robin"
+    ],
+    "hates": []
+  },
+  "Hardwood": {
+    "loves": [],
+    "likes": [
+      "Robin"
+    ],
+    "hates": []
+  },
+  "Woodcutter's Weekly": {
+    "loves": [],
+    "likes": [
+      "Robin"
+    ],
+    "hates": []
+  },
+  "Crocus": {
+    "loves": [
+      "Sandy"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Mango Sticky Rice": {
+    "loves": [
+      "Sandy"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Sweet Pea": {
+    "loves": [
+      "Sandy"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Large Goat Milk": {
+    "loves": [],
+    "likes": [
+      "Sandy"
+    ],
+    "hates": []
+  },
+  "Cranberry Candy": {
+    "loves": [
+      "Vincent"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Ginger Ale": {
+    "loves": [
+      "Vincent"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Snail": {
+    "loves": [
+      "Vincent"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "All Fruit (except Coconut, Grape & Fruit Tree Fruit)": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Vincent"
+    ]
+  },
+  "Catfish": {
+    "loves": [
+      "Willy"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Jewels Of The Sea": {
+    "loves": [
+      "Willy"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Sea Cucumber": {
+    "loves": [
+      "Willy"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Sturgeon": {
+    "loves": [
+      "Willy"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "The Art O' Crabbing": {
+    "loves": [
+      "Willy"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Bait And Bobber": {
+    "loves": [],
+    "likes": [
+      "Willy"
+    ],
+    "hates": []
+  },
+  "Lingcod": {
+    "loves": [],
+    "likes": [
+      "Willy"
+    ],
+    "hates": []
+  },
+  "Tiger Trout": {
+    "loves": [],
+    "likes": [
+      "Willy"
+    ],
+    "hates": []
+  },
+  "Baked Fish": {
+    "loves": [],
+    "likes": [
+      "Willy"
+    ],
+    "hates": []
+  },
+  "Chowder": {
+    "loves": [],
+    "likes": [
+      "Willy"
+    ],
+    "hates": []
+  },
+  "Fish Stew": {
+    "loves": [],
+    "likes": [
+      "Willy"
+    ],
+    "hates": []
+  },
+  "Lobster Bisque": {
+    "loves": [],
+    "likes": [
+      "Willy"
+    ],
+    "hates": []
+  },
+  "Book of Mysteries": {
+    "loves": [
+      "Wizard"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Solar Essence": {
+    "loves": [
+      "Wizard"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Super Cucumber": {
+    "loves": [
+      "Wizard"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "Void Essence": {
+    "loves": [
+      "Wizard"
+    ],
+    "likes": [],
+    "hates": []
+  },
+  "All Geode Minerals": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "hates": []
+  },
+  "All Trinkets": {
+    "loves": [],
+    "likes": [
+      "Wizard"
+    ],
+    "hates": []
+  },
+  "All Mushrooms (except Red & Purple)": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Wizard"
+    ]
+  },
+  "Slime": {
+    "loves": [],
+    "likes": [],
+    "hates": [
+      "Wizard"
+    ]
   }
 }
