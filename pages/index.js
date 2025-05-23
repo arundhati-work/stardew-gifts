@@ -1,10 +1,11 @@
 import { useState } from 'react';
 import itemData from '../data/itemToVillager.json';
 import villagerData from '../data/villagerToItem.json';
-import SearchBar from '../components/SearchBar';
 import Results from '../components/Results';
 import styles from '../styles/Home.module.css';
 import VillagerGrid from '../components/VillagerGrid';
+import ClientOnly from '../components/ClientOnly';
+import SearchBar from '../components/SearchBar';
 
 export default function Home() {
   const [mode, setMode] = useState('item');
@@ -33,14 +34,16 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>🎁 Stardew Valley Gift Matcher</h1>
         <div className={styles.searchContainer}>
-          <SearchBar
-            mode={mode}
-            setMode={setMode}
-            query={query}
-            setQuery={setQuery}
-            handleSearch={handleSearch}
-            handleReset={handleReset}
-          />
+          <ClientOnly>
+            <SearchBar
+              mode={mode}
+              setMode={setMode}
+              query={query}
+              setQuery={setQuery}
+              handleSearch={handleSearch}
+              handleReset={handleReset}
+            />
+          </ClientOnly>
         </div>
         <div className={styles.results}>
           {result ? 
