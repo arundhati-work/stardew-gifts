@@ -1,111 +1,577 @@
 {
-  "Abigail": {
+  "Alex": {
     "loves": [
-      "Amethyst",
-      "Pumpkin",
-      "Spicy Eel"
+      "Complete Breakfast",
+      "Jack Be Nimble",
+      "Jack Be Thick",
+      "Salmon Dinner"
     ],
-    "likes": [],
-    "hates": []
-  },
-  "Emily": {
-    "loves": [
-      "Amethyst",
-      "Cloth",
-      "Emerald"
+    "likes": [
+      "All eggs (except void egg)",
+      "Dinosaur Egg",
+      "Field Snack",
+      "Parrot egg"
     ],
-    "likes": [],
-    "hates": []
-  },
-  "Clint": {
-    "loves": [
-      "Amethyst"
-    ],
-    "likes": [],
-    "hates": []
-  },
-  "Jas": {
-    "loves": [],
-    "likes": [],
     "hates": [
-      "Amethyst",
-      "Pumpkin",
-      "Spicy Eel"
+      "All books except Jack Be Nimble & Jack Be Thick",
+      "Salmonberry",
+      "Wild Horseradish",
+      "Holly",
+      "Quartz"
     ]
   },
-  "Vincent": {
-    "loves": [],
-    "likes": [],
+"Elliott": {
+    "loves": [
+      "Crab Cakes",
+      "Duck Feather",
+      "Lobster",
+      "Pomegranate",
+      "Squid Ink",
+      "Tom Kha Soup"
+    ],
+    "likes": [
+      "All books",
+      "All fruit except Salmonberry",
+      "Octopus",
+      "Squid"
+    ],
     "hates": [
-      "Amethyst",
-      "Pumpkin",
-      "Spicy Eel"
+      "All milk",
+      "All mushrooms",
+      "Daffodil",
+      "Dandelion",
+      "Ginger",
+      "Hazelnut",
+      "Holly",
+      "Leek",
+      "Pizza",
+      "Snow Yam",
+      "Wild Horseradish",
+      "Winter root",
+      "Amaranth",
+      "Quartz",
+      "Salmonberry",
+      "Sea cucumber",
+      "Super cucumber"
     ]
   },
-  "Krobus": {
+  "Harvey" : {
     "loves": [
-      "Pumpkin"
+      "Coffee",
+      "Pickles",
+      "Super Meal",
+      "Truffle Oil",
+      "Wine"
     ],
     "likes": [
+      "All fruit except Salmonberry & Spice Berry",
+      "All Mushrooms except Red",
+      "Daffodil",
+      "Dandelion",
+      "Duck Egg",
+      "Duck Feather",
+      "Ginger",
+      "Goat Milk",
+      "Hazelnut",
+      "Holly",
+      "Leek",
+      "Quartz",
+      "Snow Yam",
+      "Spring Onion",
+      "Wild Horseradish",
+      "Winter root"
+    ],
+    "hates": [
+      "Blueberry Tart",
+      "Bread",
+      "Cheese",
+      "Chocolate Cake",
+      "Cookie",
+      "Cranberry Sauce",
+      "Fried Mushroom",
+      "Glazed Yams",
+      "Goat Cheese",
+      "Hashbrowns",
+      "Ice Cream",
+      "Pancakes",
+      "Pink Cake",
+      "Pizza",
+      "Rhubarb Pie",
+      "Rice Pudding",
+      "Coral",
+      "Nautilus Shell",
+      "Rainbow Shell",
+      "Salmonberry",
+      "Spice Berry"
+    ]
+  },
+  "Sam" : {
+    "loves": [
+      "Cactus Fruit",
+      "Maple Bar",
+      "Pizza",
+      "Tigerseye"
+    ],
+    "likes": [
+      "All eggs except void egg",
+      "Joja Cola"
+    ],
+    "hates": [
+      "All Mushrooms (except Red)",
+      "All Vegetables (except Hops, Tea Leaves, & Wheat)",
+      "Daffodil",
+      "Dandelion",
+      "Ginger",
+      "Hazelnut",
+      "Holly",
+      "Leek",
+      "Quartz",
+      "Salmonberry",
+      "Seaweed",
+      "Snow Yam",
+      "Wild Horseradish",
+      "Winter Root",
+      "Bone Fragment",
+      "Cinder Shard",
+      "Coal",
+      "Copper Bar",
+      "Duck Mayonnaise",
+      "Gold Bar",
+      "Gold Ore",
+      "Iridium Bar",
+      "Iridium Ore",
+      "Iron Bar",
+      "Mayonnaise",
+      "Pickles",
+      "Refined Quartz"
+    ]
+  },
+  "Sebastian" : {
+    "loves": [
+      "Frog Egg",
+      "Frozen Tear",
+      "Obsidian",
+      "Pumpkin Soup",
+      "Sashimi",
+      "Void Egg"
+    ],
+    "likes": [
+      "Combat Quarterly",
+      "Flounder",
+      "Monster Compendium",
+      "Quartz"
+    ],
+    "hates": [
+      "All Flowers (except Poppy)",
+      "All Mushrooms (except Red)",
+      "Daffodil",
+      "Dandelion",
+      "Ginger",
+      "Hazelnut",
+      "Holly",
+      "Leek",
+      "Salmonberry",
+      "Snow Yam",
+      "Wild Horseradish",
+      "Winter Root",
+      "All Artisan Goods (except Coffee, Green Tea, & Oil)",
+      "All Eggs (except Void Egg)",
+      "Clay",
+      "Complete Breakfast",
+      "Farmer's Lunch",
+      "Omelet",
+      "Piña Colada"
+    ]
+  },
+  "Shane" : {
+    "loves": [
+      "Beer",
+      "Hot Pepper",
+      "Pepper Poppers",
+      "Pizza"
+    ],
+    "likes": [
+      "All Eggs (except Void Egg)",
+      "All Fruit (except Hot Pepper)"
+    ],
+    "hates": [
+      "All Mushrooms (except Red)",
+      "Daffodil",
+      "Dandelion",
+      "Ginger",
+      "Hazelnut",
+      "Holly",
+      "Leek",
+      "Seaweed",
+      "Snow Yam",
+      "Wild Horseradish",
+      "Winter Root",
+      "Pickles",
+      "Quartz"
+    ]
+  },
+  "Abigail" : {
+    "loves": [
+      "Amethyst",
+      "Banana Pudding",
+      "Blackberry Cobbler",
+      "Chocolate Cake",
+      "Monster Compendium",
+      "Pufferfish",
+      "Pumpkin",
       "Spicy Eel"
     ],
-    "hates": []
-  },
-  "Willy": {
-    "loves": [
-      "Pumpkin"
-    ],
-    "likes": [],
-    "hates": []
-  },
-  "Caroline": {
-    "loves": [],
     "likes": [
-      "Pumpkin"
+      "Ancient Sword",
+      "Basilisk Paw",
+      "Bone Flute",
+      "Combat Quarterly",
+      "Quartz"
     ],
-    "hates": []
+    "hates": [
+      "All Eggs",
+"All Fruit (except Fruit Tree Fruit)",
+"All Vegetables (except Hops, Pumpkin, Tea Leaves, & Wheat)",
+"Sugar",
+"Wild Horseradish",
+"Clay",
+"Holly"
+    ]
   },
-  "Demetrius": {
-    "loves": [],
+  "Emily" : {
+    "loves": [
+      "Amethyst",
+"Aquamarine",
+"Cloth",
+"Emerald",
+"Jade",
+"Parrot Egg",
+"Ruby",
+"Survival Burger",
+"Topaz",
+"Wool"
+    ],
     "likes": [
-      "Pumpkin"
+      "Daffodil",
+      "Quartz"
     ],
-    "hates": []
+    "hates": [
+      "Fried Eel",
+      "Ice Cream",
+      "Rice Pudding",
+      "Salmonberry",
+      "Spicy Eel",
+      "Fish Taco",
+      "Holly",
+      "Maki Roll",
+      "Salmon Dinner",
+      "Sashimi"
+    ]
   },
-  "Sam": {
-    "loves": [
-      "Spicy Eel"
-    ],
-    "likes": [],
-    "hates": []
-  },
-  "Shane": {
-    "loves": [],
-    "likes": [
-      "Spicy Eel"
-    ],
-    "hates": []
-  },
-  "Penny": {
-    "loves": [
-      "Emerald"
-    ],
-    "likes": [],
-    "hates": []
-  },
-  "Sandy": {
-    "loves": [
-      "Emerald"
-    ],
-    "likes": [],
-    "hates": []
-  },
-  "Haley": {
+  "Haley" : {
     "loves": [
       "Coconut",
-      "Sunflower",
-      "Fruit Salad"
+      "Fruit Salad",
+      "Pink Cake",
+      "Sunflower"
     ],
+    "likes": [
+      "Daffodil"
+    ],
+    "hates": [
+      "All Eggs",
+      "All Fruit (except Coconut)",
+      "All Milk",
+      "All Mushrooms (except Red)",
+      "All Vegetables (except Hops, Tea Leaves, & Wheat)",
+      "Dandelion",
+      "Ginger",
+      "Hazelnut",
+      "Holly",
+      "Leek",
+      "Mystic Syrup",
+      "Quartz",
+      "Snow Yam",
+      "Winter Root",
+      "All Fish",
+      "Clay",
+      "Prismatic Shard",
+      "Wild Horseradish"
+    ]
+  },
+  "Leah" : {
+    "loves": [
+      "Goat Cheese",
+      "Poppyseed Muffin",
+      "Salad",
+      "Stir Fry",
+      "Truffle",
+      "Vegetable Medley",
+      "Wine"
+
+    ],
+    "likes": [
+      "All Eggs (except Void Egg)",
+      "All Fruit",
+      "All Milk",
+      "All Mushrooms (except Red)",
+      "Daffodil",
+      "Dandelion",
+      "Driftwood",
+      "Ginger",
+      "Hazelnut",
+      "Holly",
+      "Leek",
+      "Snow Yam",
+      "Spring Onion",
+      "Wild Horseradish",
+      "Winter Root"
+    ],
+    "hates": [
+      "All Foraged Minerals (except Earth Crystal)",
+      "All Gems (except Diamond & Prismatic Shard)",
+      "Carp Surprise",
+      "Cookie",
+      "Fried Egg",
+      "Ice Cream",
+      "Pink Cake",
+      "Rice Pudding",
+      "Seaweed",
+      "Survival Burger",
+      "Tortilla",
+      "Bread",
+      "Hashbrowns",
+      "Pancakes",
+      "Pizza",
+      "Void Egg"
+    ]
+  },
+  "Maru" : {
+    "loves": [
+      "Battery Pack",
+      "Cauliflower",
+      "Cheese Cauliflower",
+      "Diamond",
+      "Dwarf Gadget",
+      "Gold Bar",
+      "Iridium Bar",
+      "Miner's Treat",
+      "Pepper Poppers",
+      "Radioactive Bar",
+      "Rhubarb Pie",
+      "Strawberry"
+    ],
+    "likes": [
+      "All Mushrooms (except Common & Red)",
+      "Copper Bar",
+      "Iron Bar",
+      "Oak Resin",
+      "Pine Tar",
+      "Quartz",
+      "Radioactive Ore"
+    ],
+    "hates": [
+      "Blackberry",
+      "Common Mushroom",
+      "Crystal Fruit",
+      "Maple Syrup",
+      "Salmonberry",
+      "Holly",
+      "Honey",
+      "Pickles",
+      "Snow Yam",
+      "Truffle"
+    ]
+  },
+  "Penny" : {
+    "loves": [
+      "All Books",
+      "Diamond",
+      "Emerald",
+      "Melon",
+      "Poppy",
+      "Poppyseed Muffin",
+      "Red Plate",
+      "Roots Platter",
+      "Sandfish",
+      "Tom Kha Soup"
+    ],
+    "likes": [
+      "All Artifacts",
+      "All Milk",
+      "Dandelion",
+      "Leek"
+    ],
+    "hates": [
+      "Algae Soup",
+      "Duck Feather",
+      "Pale Broth",
+      "Purple Mushroom",
+      "Quartz",
+      "Red Mushroom",
+      "Salmonberry",
+      "Wool",
+      "Beer",
+      "Grape",
+      "Holly",
+      "Hops",
+      "Mead",
+      "Pale Ale",
+      "Piña Colada",
+      "Rabbit's Foot",
+      "Wine"
+    ]
+  },
+  "Caroline" : {
+    "loves": [
+      "Fish Taco",
+      "Green Tea",
+      "Summer Spangle",
+      "Tropical Curry"
+    ],
+    "likes": [
+      "Daffodil",
+      "Tea Leaves",
+      "Wild Horseradish"
+    ],
+    "hates": [
+      "All Mushrooms (except Red)",
+      "Amaranth",
+      "Dandelion",
+      "Duck Mayonnaise",
+      "Ginger",
+      "Hazelnut",
+      "Holly",
+      "Leek",
+      "Mayonnaise",
+      "Snow Yam",
+      "Winter Root",
+      "Quartz",
+      "Salmonberry"
+    ]
+  },
+  "Clint" : {
+    "loves": [
+      "Amethyst",
+      "Aquamarine",
+      "Artichoke Dip",
+      "Emerald",
+      "Fiddlehead Risotto",
+      "Gold Bar",
+      "Iridium Bar",
+      "Jade",
+      "Omni Geode",
+      "Ruby",
+      "Topaz"
+    ],
+    "likes": [
+      "Copper Bar",
+      "Iron Bar",
+      "Mining Monthly"
+    ],
+    "hates": [
+      "All Flowers (except Poppy)",
+      "Quartz",
+      "Salmonberry",
+      "Wild Horseradish",
+      "Holly"
+    ]
+  },
+  "Demetrius" : {
+    "loves": [
+      "Bean Hotpot",
+      "Ice Cream",
+      "Rice Pudding",
+      "Strawberry"
+    ],
+    "likes": [
+      "All Eggs (except Void Egg)",
+      "All Fruit (except Strawberry)",
+      "Dinosaur Egg",
+      "Purple Mushroom"
+    ],
+    "hates": [
+      "Quartz",
+      "Holly"
+    ]
+  },
+  "Dwarf" : {
+    "loves": [
+      "Amethyst",
+      "Aquamarine",
+      "Emerald",
+      "Jade",
+      "Lava Eel",
+      "Lemon Stone",
+      "Omni Geode",
+      "Ruby",
+      "Topaz"
+    ],
+    "likes": [
+      "All Artifacts",
+      "Cave Carrot",
+      "Quartz"
+    ],
+    "hates": [
+      "All Eggs",
+      "All Mushrooms (except Red)",
+      "Daffodil",
+      "Dandelion",
+      "Ginger",
+      "Hazelnut",
+      "Holly",
+      "Leek",
+      "Salmonberry",
+      "Snow Yam",
+      "Wild Horseradish",
+      "Winter Root"
+    ]
+  },
+  "Evelyn" : {
+    "loves": [
+      "Beet",
+      "Chocolate Cake",
+      "Diamond",
+      "Fairy Rose",
+      "Raisins",
+      "Stuffing",
+      "Tulip"
+    ],
+    "likes": [
+      "All Milk",
+      "Broken Glasses",
+      "Clam",
+      "Cockle",
+      "Coral",
+      "Daffodil",
+      "Mussel",
+      "Nautilus Shell",
+      "Oyster",
+      "Sea Urchin"
+    ],
+    "hates": [
+      "Quartz",
+      "Wild Horseradish",
+      "All Fish (except Clam, Cockle, Mussel, & Oyster)",
+      "Clay",
+      "Fried Eel",
+      "Garlic",
+      "Holly",
+      "Maki Roll",
+      "Salmonberry",
+      "Sashimi",
+      "Spice Berry",
+      "Spicy Eel",
+      "Trout Soup"
+    ]
+  },
+  "George" : {
+    "loves": [],
+    "likes": [],
+    "hates": []
+  },
+  "XYZ" : {
+    "loves": [],
     "likes": [],
     "hates": []
   }
